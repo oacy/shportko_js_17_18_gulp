@@ -1,0 +1,31 @@
+.checkbox2 input[type=checkbox] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.checkbox2 label {
+    cursor: pointer;
+}
+.checkbox2 label:after {
+    content: " ";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url(../../img/checkbox-sprite.png);
+    position: relative;
+    top: 3px;
+    margin-left: 15px;
+}
+.checkbox2 input[type=checkbox]:checked + label:after {
+    background-position: 0 -17px;
+}
+.checkbox2 label:hover:after {
+    background-position: 0 -34px;
+}
+.checkbox2 input[type=checkbox]:checked + label:hover:after {
+    background-position: 0 -51px;
+}
+
+
+.checkbox2 {
+    margin: 20px;
+}

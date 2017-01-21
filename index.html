@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ДЗ JS #17-18 Gulp</title>
+
+    <link rel="stylesheet" href="build/css/all.css">
+    <script src="build/js/all.js"></script>
+
+</head>
+<body>
+<div id="menu_div">
+    <div id="navigation">
+        <div id="menu">
+            <ul id="nav">
+                <li><a href="#">Home</a>
+                    <ul>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Aenean massa</a></li>
+                        <li><a href="#">Nullam dictum felis</a></li>
+                        <li><a href="#">Aenean leo ligula</a></li>
+                        <li><a href="#">Curabitur ullamcorper</a></li>
+                        <li><a href="#">Item - Level 2</a>
+                            <ul>
+                                <li><a href="#">Sub item 1</a></li>
+                                <li><a href="#">Sub item 2</a></li>
+                                <li><a href="#">Item - Level 3</a>
+                                    <ul>
+                                        <li><a href="#">Sub sub item 1</a></li>
+                                        <li><a href="#">Sub sub item 2</a></li>
+                                        <li><a href="#">Item - Level 4</a>
+                                            <ul>
+                                                <li><a href="#">Sub sub sub item
+                                                    1</a></li>
+                                                <li><a href="#">Sub sub sub item
+                                                    2</a></li>
+                                                <li><a href="#">Sub sub sub item
+                                                    3</a></li>
+                                            </ul>
+                                        </li>    <!-- Level 4 END -->
+                                    </ul>
+                                </li>    <!-- Level 3 END -->
+                            </ul>
+                        </li>    <!-- Level 2 END -->
+                    </ul>
+                </li> <!-- Level 1 END -->
+                <!-- END Home Item -->
+
+                <li><a href="#">Portfolio</a>
+                    <ul>
+                        <li><a href="#">Maecenas tempus</a></li>
+                        <li><a href="#">Vestibulum ante ipsum</a></li>
+                        <li><a href="#">Praesent adipiscing</a></li>
+                        <li><a href="#">Curabitur ligula</a></li>
+                        <li><a href="#">Vestibulum</a>>
+                        </li>
+                    </ul>
+                </li>
+                <!-- END Portfolio Item -->
+
+                <li><a href="#">Blog</a>
+                    <ul>
+                        <li><a href="#">Fusce id purus</a></li>
+                        <li><a href="#">Aenean viverra</a></li>
+                        <li><a href="#">Phasellus magna</a></li>
+                        <li><a href="#">Morbi ac felis</a></li>
+                    </ul>
+                </li>
+                <!-- END Blog Item -->
+
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul><!-- #nav END-->
+        </div>
+    </div>
+</div>
+
+<div class="wrapper">
+    <h1>Carousel</h1>
+    <div class="jcarousel-wrapper">
+        <div class="jcarousel">
+            <ul>
+                <li><img src="img/img1.jpg" alt=""></li>
+                <li><img src="img/img2.jpg" alt=""></li>
+                <li><img src="img/img3.jpg" alt=""></li>
+                <li><img src="img/img4.jpg" alt=""></li>
+                <li><img src="img/img5.jpg" alt=""></li>
+                <li><img src="img/img6.jpg" alt=""></li>
+                <li><img src="img/img7.jpg" alt=""></li>
+            </ul>
+        </div>
+
+
+        <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+        <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
+        <p class="jcarousel-pagination">
+
+        </p>
+    </div>
+</div>
+
+<div class="item" style="margin: 20px;">
+    <label for="speed">Select a speed</label>
+    <select name="speed" id="speed">
+        <option>Slower</option>
+        <option>Slow</option>
+        <option selected="selected">Medium</option>
+        <option>Fast</option>
+        <option>Faster</option>
+    </select>
+</div>
+
+<div class="checkbox1">
+    <label for="test-check1">Чекбокс jquery:</label>
+    <span class="niceCheck"><input type="checkbox" name="ch1"/></span>
+</div>
+
+
+<div class="checkbox2">
+    <input type="checkbox" id="test-check1"/>
+    <label for="test-check1">Чекбокс CSS:</label>
+</div>
+
+</body>
+</html>
